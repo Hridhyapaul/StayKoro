@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stay Koro</title>
+
+  <!-- Bootstrap css file-->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+  <!-- Font awesome icons -->
+  <link rel="stylesheet" href="./css/all.min.css" />
+
+  <!-- Custom css file -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- ====== Start Header ====== -->
+  <header class="header">
+    <!-- ====== Start Top Header ====== -->
+    <div class="top_header shadow-sm">
+      <nav
+        class="navbar navbar_height navbar-light bg-white d-flex justify-content-between align-items-center pt-0 pb-0">
+        <div class="container-fluid">
+          <div><img src="./image/logo.png" alt="" width="140px"></div>
+          <!-- Start Mobile design -->
+          <div class="d-flex justify-content-center align-items-center d-lg-none gap-3">
+            <i class="fa-solid fa-language pb-0" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-square-plus" style="font-size: 16px;"></i>
+            <i class="fa-solid fa-phone-volume" style="font-size: 16px;"></i>
+          </div>
+          <!-- End Mobile design -->
+
+          <!-- Start Large Screen design -->
+          <div class="d-lg-flex d-none justify-content-end align-items-center">
+            <!-- Start Member Promocard -->
+            <div class="promoCard">
+              <div class="promocard_content d-flex justify-content-center align-items-center gap-2">
+                <img src="./image/header-1-icons/member.svg" alt="" class="promocard_icon" />
+                <div>
+                  <h5 class="promocard_header">Become a Member</h5>
+                  <p class="promocard_text">Additional 10% off on stays</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Member Promocard -->
+
+            <!-- Start Business Promocard -->
+            <div class="promoCard">
+              <div class="promocard_content d-flex justify-content-center align-items-center gap-2">
+                <img src="./image/header-1-icons/business.svg" alt="" class="promocard_icon" />
+                <div>
+                  <h5 class="promocard_header">OYO for Business</h5>
+                  <p class="promocard_text">Trusted by 5000 Corporates</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Business Promocard -->
+
+            <!-- Start Property Promocard -->
+            <div class="promoCard">
+              <div class="promocard_content d-flex justify-content-center align-items-center gap-2">
+                <img src="./image/header-1-icons/property.svg" alt="" class="promocard_icon" />
+                <div>
+                  <h5 class="promocard_header">List your property</h5>
+                  <p class="promocard_text">Start earning in 30 mins
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Property Promocard -->
+
+            <!-- Start Contact Promocard -->
+            <div class="promoCard">
+              <div class="promocard_content d-flex justify-content-center align-items-center gap-2">
+                <img src="./image/header-1-icons/phone.svg" alt="" class="promocard_icon" />
+                <div>
+                  <h5 class="promocard_header">0124-6201611</h5>
+                  <p class="promocard_text">Call us to Book now
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Contact Promocard -->
+
+            <!-- Start Language Promocard -->
+            <div class="hover_promoCard">
+              <div class="dropdown">
+                <p class="dropdown-toggle promocard_header" href="#" role="button" id="dropdownMenuLink"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./image/header-1-icons/web.svg" alt="" class="promocard_icon" />
+                  English
+                  <i class="fa-solid fa-caret-down"></i>
+                </p>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- End Language Promocard -->
+
+            <!-- Start Login/Signup Promocard -->
+            <div class="hover_promoCard">
+              <div class="promocard_header d-flex justify-content-center align-items-center gap-2">
+                <div class="login_icon">
+                  <i class="fa-regular fa-user promocard_icon text-white d-flex justify-content-center mt-2"></i>
+                </div>
+                Login/Signup
+              </div>
+            </div>
+            <!-- End Login/Signup Promocard -->
+          </div>
+        </div>
+    </div>
+    </nav>
+    </div>
+    <!-- ====== End Top Header ====== -->
+
+    <!-- ====== Start Bottom Header ====== -->
+    <div class="container-fluid bottom_header">
+      <div class="dropdown">
+        <div class="btn dropdown-toggle single_navigation" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <p class="navigation_text">Bangalore</p>
+          <i class="fa-solid fa-chevron-down navigation_chevron"></i>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div class="btn dropdown-toggle single_navigation" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <p class="navigation_text">Chennai</p>
+          <i class="fa-solid fa-chevron-down navigation_chevron"></i>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div class="btn dropdown-toggle single_navigation" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <p class="navigation_text">Delhi</p>
+          <i class="fa-solid fa-chevron-down navigation_chevron"></i>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div class="btn dropdown-toggle single_navigation" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <p class="navigation_text">Gurgaon</p>
+          <i class="fa-solid fa-chevron-down navigation_chevron"></i>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div class="btn dropdown-toggle single_navigation" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <p class="navigation_text">Hyderabad</p>
+          <i class="fa-solid fa-chevron-down navigation_chevron"></i>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div class="btn dropdown-toggle single_navigation" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <p class="navigation_text">Kolkata</p>
+          <i class="fa-solid fa-chevron-down navigation_chevron"></i>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div class="btn dropdown-toggle single_navigation" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <p class="navigation_text">Mumbai</p>
+          <i class="fa-solid fa-chevron-down navigation_chevron"></i>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div class="btn dropdown-toggle single_navigation" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <p class="navigation_text">Noida</p>
+          <i class="fa-solid fa-chevron-down navigation_chevron"></i>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div class="btn dropdown-toggle single_navigation" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <p class="navigation_text">Pune</p>
+          <i class="fa-solid fa-chevron-down navigation_chevron"></i>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="btn all_cities" type="button">
+          <p class="navigation_text">All Cities</p>
+        </div>
+      </div>
+    </div>
+    <!-- ====== End Bottom Header ====== -->
+  </header>
+  <!-- ====== End Header ====== -->
+
+  <!-- ====== Start Hero Section for Large Screen ====== -->
+  <section class="hero_section">
+    <div class="d-flex justify-content-center align-items-center">
+      <div>
+        <h1 class="hero_text">Over 174,000+ hotels and homes across 35+ countries</h1>
+        <div class="container-fluid hero_form d-lg-block d-sm-none">
+          <div class="row">
+            <input type="text" name="" id="" placeholder="Search by city, hotel, or neighborhood"
+              class="hero_input1 col-md-4">
+            <input type="text" name="" id="" placeholder="Search by city, hotel, or neighborhood"
+              class="hero_input2 col-md-3">
+            <input type="text" name="" id="" placeholder="Search by city, hotel, or neighborhood"
+              class="hero_input2 col-md-3">
+            <button class="col-md-2">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== End Hero Section for Large Screen ====== -->
+
+  <!-- ====== Start Form Design for Mobile Screen ====== -->
+  <div class="container-fluid d-lg-none d-sm-block">
+    <p class="form_title">Find hotels at best price</p>
+    <div class="form_container">
+      <div>
+        <div>
+          <label for="" class="form_label">Destination</label>
+        </div>
+        <input type="text" placeholder="Search for city, location or hotel" name="" id="" class="form_input">
+      </div>
+
+      <hr class="divider">
+
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <div>
+            <label for="" class="form_label">Date</label>
+          </div>
+          <input type="text" placeholder="25 Jan - 26 Jan" name="" id="" class="form_input">
+        </div>
+
+        <div class="room_input">
+          <div>
+            <label for="" class="form_label">Date</label>
+          </div>
+          <input type="text" placeholder="25 Jan - 26 Jan" name="" id="" class="form_input">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid d-lg-none d-sm-block">
+    <button class="form_button">Search</button>
+  </div>
+  <!-- ====== End Form Design for Mobile Screen ====== -->
+
+  <!-- ====== Start Banner Section ====== -->
+  <div class="container-lg">
+    <div class="banner_image">
+      <img src="./image/banner.jpg" alt="">
+    </div>
+  </div>
+  <!-- ====== End Banner Section ====== -->
+
+  <!-- ====== Start Hotel Section ====== -->
+  <div class="container-fluid mx-auto">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+      <!-- Image-1 -->
+      <div class="col-lg-3 hotel_container">
+        <div>
+          <div class="image_div">
+            <img src="./image/img-1.jpg" alt="" class="rounded hotel_image">
+            <i class="fa-regular fa-heart heart"></i>
+          </div>
+          <div class="hotel_content mt-3">
+            <div class="d-flex justify-content-between align-content-center">
+              <h4 class="hotel_name">Balian Beach, Indonesia</h4>
+              <p class="review">
+                <i class="fa-solid fa-star"></i>
+                <span>4.86</span>
+              </p>
+            </div>
+            <p class="distance">4,467 kilometers away</p>
+            <p class="time">Feb 18 - 23</p>
+            <p class="hotel_price"><span>$106</span> night</p>
+          </div>
+        </div>
+      </div>
+      <!-- Image-2 -->
+      <div class="col-lg-3 hotel_container">
+        <div>
+          <div class="image_div">
+            <img src="./image/img-2.jpeg" alt="" class="rounded hotel_image">
+            <i class="fa-regular fa-heart heart"></i>
+          </div>
+          <div class="hotel_content mt-3">
+            <div class="d-flex justify-content-between align-content-center">
+              <h4 class="hotel_name">Balian Beach, Indonesia</h4>
+              <p class="review">
+                <i class="fa-solid fa-star"></i>
+                <span>4.86</span>
+              </p>
+            </div>
+            <p class="distance">4,467 kilometers away</p>
+            <p class="time">Feb 18 - 23</p>
+            <p class="hotel_price"><span>$106</span> night</p>
+          </div>
+        </div>
+      </div>
+      <!-- Image-3 -->
+      <div class="col-lg-3 hotel_container">
+        <div>
+          <div class="image_div">
+            <img src="./image/img-3.jpg" alt="" class="rounded hotel_image">
+            <i class="fa-regular fa-heart heart"></i>
+          </div>
+          <div class="hotel_content mt-3">
+            <div class="d-flex justify-content-between align-content-center">
+              <h4 class="hotel_name">Balian Beach, Indonesia</h4>
+              <p class="review">
+                <i class="fa-solid fa-star"></i>
+                <span>4.86</span>
+              </p>
+            </div>
+            <p class="distance">4,467 kilometers away</p>
+            <p class="time">Feb 18 - 23</p>
+            <p class="hotel_price"><span>$106</span> night</p>
+          </div>
+        </div>
+      </div>
+      <!-- Image-4 -->
+      <div class="col-lg-3 hotel_container">
+        <div>
+          <div class="image_div">
+            <img src="./image/img-4.jpg" alt="" class="rounded hotel_image">
+            <i class="fa-regular fa-heart heart"></i>
+          </div>
+          <div class="hotel_content mt-3">
+            <div class="d-flex justify-content-between align-content-center">
+              <h4 class="hotel_name">Balian Beach, Indonesia</h4>
+              <p class="review">
+                <i class="fa-solid fa-star"></i>
+                <span>4.86</span>
+              </p>
+            </div>
+            <p class="distance">4,467 kilometers away</p>
+            <p class="time">Feb 18 - 23</p>
+            <p class="hotel_price"><span>$106</span> night</p>
+          </div>
+        </div>
+      </div>
+      <!-- Image-5 -->
+      <div class="col-lg-3 hotel_container">
+        <div>
+          <div class="image_div">
+            <img src="./image/img-5.jpg" alt="" class="rounded hotel_image">
+            <i class="fa-regular fa-heart heart"></i>
+          </div>
+          <div class="hotel_content mt-3">
+            <div class="d-flex justify-content-between align-content-center">
+              <h4 class="hotel_name">Balian Beach, Indonesia</h4>
+              <p class="review">
+                <i class="fa-solid fa-star"></i>
+                <span>4.86</span>
+              </p>
+            </div>
+            <p class="distance">4,467 kilometers away</p>
+            <p class="time">Feb 18 - 23</p>
+            <p class="hotel_price"><span>$106</span> night</p>
+          </div>
+        </div>
+      </div>
+      <!-- Image-6 -->
+      <div class="col-lg-3 hotel_container">
+        <div>
+          <div class="image_div">
+            <img src="./image/img-6.jpg" alt="" class="rounded hotel_image">
+            <i class="fa-regular fa-heart heart"></i>
+          </div>
+          <div class="hotel_content mt-3">
+            <div class="d-flex justify-content-between align-content-center">
+              <h4 class="hotel_name">Balian Beach, Indonesia</h4>
+              <p class="review">
+                <i class="fa-solid fa-star"></i>
+                <span>4.86</span>
+              </p>
+            </div>
+            <p class="distance">4,467 kilometers away</p>
+            <p class="time">Feb 18 - 23</p>
+            <p class="hotel_price"><span>$106</span> night</p>
+          </div>
+        </div>
+      </div>
+      <!-- Image-7 -->
+      <div class="col-lg-3 hotel_container">
+        <div>
+          <div class="image_div">
+            <img src="./image/img-7.jpg" alt="" class="rounded hotel_image">
+            <i class="fa-regular fa-heart heart"></i>
+          </div>
+          <div class="hotel_content mt-3">
+            <div class="d-flex justify-content-between align-content-center">
+              <h4 class="hotel_name">Balian Beach, Indonesia</h4>
+              <p class="review">
+                <i class="fa-solid fa-star"></i>
+                <span>4.86</span>
+              </p>
+            </div>
+            <p class="distance">4,467 kilometers away</p>
+            <p class="time">Feb 18 - 23</p>
+            <p class="hotel_price"><span>$106</span> night</p>
+          </div>
+        </div>
+      </div>
+      <!-- Image-5 -->
+      <div class="col-lg-3 hotel_container">
+        <div>
+          <div class="image_div">
+            <img src="./image/img-5.jpg" alt="" class="rounded hotel_image">
+            <i class="fa-regular fa-heart heart"></i>
+          </div>
+          <div class="hotel_content mt-3">
+            <div class="d-flex justify-content-between align-content-center">
+              <h4 class="hotel_name">Balian Beach, Indonesia</h4>
+              <p class="review">
+                <i class="fa-solid fa-star"></i>
+                <span>4.86</span>
+              </p>
+            </div>
+            <p class="distance">4,467 kilometers away</p>
+            <p class="time">Feb 18 - 23</p>
+            <p class="hotel_price"><span>$106</span> night</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- ====== End Hotel Section ====== -->
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <!-- Bootstrap js file -->
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
